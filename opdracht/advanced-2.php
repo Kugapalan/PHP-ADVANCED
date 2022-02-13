@@ -31,7 +31,7 @@
                      "Muzieksmaak"=>"Hiphop", 
                      "Sport"=>"Karate");
 
-    function maakTabel($sleutel, $waarde){ 
+    function maakRij($sleutel, $waarde){ 
         echo "<tr>";
         echo "<td>$sleutel</td>";
         echo "<td>$waarde</td>";
@@ -39,7 +39,7 @@
      } 
 
  foreach($student as $key => $value){
-     maakTabel($key, $value);
+     maakRij($key, $value);
 }
 ?>
 </table>
