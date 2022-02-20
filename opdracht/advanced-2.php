@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-<style> 
+<head>
+    <style> 
     table, tr, th{
         border: <?php echo $_POST["tabelrand"]?>px black;
         padding: <?php echo $_POST["celpadding"]?>px;
@@ -16,13 +16,13 @@
     }
     </style>
 </head>
-
+<body>
+<form>
 <table>
 <tr>
     <th>Key</th>
     <th>Value</th>
 </tr>
-
 <?php 
     $student = array("Naam"=>"Kugapalan",
                      "Klas"=>"LCTSDO1A", 
