@@ -17,6 +17,7 @@
     </style>
 </head>
 <body>
+<form action="advanced-1.php" method="POST">
 <form>
 <table>
 <tr>
